@@ -16,3 +16,6 @@
 [submodule "bundle/arduino-syntax"]
 	path = bundle/arduino-syntax
 	url = https://github.com/sudar/vim-arduino-syntax
+[submodule "bundle/sensible"]
+	path = bundle/sensible
+	url = https://github.com/tpope/vim-sensible
