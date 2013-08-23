@@ -13,6 +13,3 @@
 [submodule "bundle/indentpython"]
 	path = bundle/indentpython
 	url = https://github.com/vim-scripts/indentpython.vim.git
-[submodule "bundle/jinja2"]
-	path = bundle/jinja2
-	url = https://github.com/beyondwords/vim-jinja2.git
