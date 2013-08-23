@@ -13,3 +13,6 @@
 [submodule "bundle/indentpython"]
 	path = bundle/indentpython
 	url = https://github.com/vim-scripts/indentpython.vim.git
+[submodule "bundle/arduino-syntax"]
+	path = bundle/arduino-syntax
+	url = https://github.com/sudar/vim-arduino-syntax
