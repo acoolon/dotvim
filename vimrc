@@ -3,9 +3,7 @@ call pathogen#helptags()
 
 colorscheme xoria256
 
-syntax on
 filetype plugin on
-filetype indent on
 let python_highlight_all = 1
 
 highlight BadWhitespace guibg=red ctermbg=red
@@ -17,9 +15,7 @@ set spelllang=de_de,en_us
 set expandtab
 set shiftwidth=4
 set tabstop=4
-set ai
 set smartindent
-set smarttab
 set textwidth=78
 
 set hidden
