@@ -22,3 +22,6 @@
 [submodule "bundle/markdown"]
 	path = bundle/markdown
 	url = https://github.com/tpope/vim-markdown
+[submodule "bundle/jellybeans-theme"]
+	path = bundle/jellybeans-theme
+	url = https://github.com/nanotech/jellybeans.vim.git
