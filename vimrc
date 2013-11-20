@@ -1,7 +1,12 @@
 call pathogen#infect()
 call pathogen#helptags()
 
-colorscheme xoria256
+if has("autocmd")
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+endif
+
+"colorscheme xoria256
+colorscheme jellybeans
 
 filetype plugin on
 let python_highlight_all = 1
