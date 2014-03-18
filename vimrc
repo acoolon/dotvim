@@ -23,7 +23,8 @@ set wildignore = ""*.o, *~, *.pyc, .*, *.log, *.toc, *.aux"
 highlight BadWhitespace guibg=red ctermbg=red
 match BadWhitespace /\s\+$/
 
-let mapleader = ","
+let mapleader = "."
+nnoremap <leader>p :CtrlPMixed<CR>
 
 if has("autocmd")
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
